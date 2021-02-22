@@ -7,18 +7,6 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "lint-staged": {
-    "*.ts": [
-      "npm run lint",
-      "npm run format",
-      "git add ."
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "ant-design-vue": "1.7.2",
     "axios": "^0.21.1",
@@ -52,5 +40,16 @@
     "lint-staged": "^10.5.4",
     "prettier": "2.1.2",
     "vue-template-compiler": "^2.6.11"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "npm run lint",
+      "git add ."
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

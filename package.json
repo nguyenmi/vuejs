@@ -41,14 +41,15 @@
     "prettier": "2.1.2",
     "vue-template-compiler": "^2.6.11"
   },
-
-  "lint-staged": {
-    "*.js": [ "lint" ],
-    "*.vue": [ "lint" ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "**/*.vue": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }

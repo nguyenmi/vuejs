@@ -13,16 +13,13 @@
     }
   },
   "lint-staged": {
-    "./src/*.{js,jsx,ts,tsx,vue}": [
-      "npx prettier --write",
-      "eslint src/*.js --fix-dry-run"
-    ]
+    "./src/*.{js,jsx,ts,tsx,vue}": [ "lint" ]
   },
   "dependencies": {
     "ant-design-vue": "1.7.2",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb": "^18.2.0",
     "json-api-normalizer": "^1.0.1",
     "lodash": "^4.17.20",
     "node-sass": "^5.0.0",
@@ -41,7 +38,7 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-airbnb": "^5.0.2",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.20.0",
+    "eslint": "^7.11.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-import": "^2.22.1",
@@ -49,7 +46,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^5.1.0",
     "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1",
+    "prettier": "2.1.2",
     "vue-template-compiler": "^2.6.11"
   }
 }

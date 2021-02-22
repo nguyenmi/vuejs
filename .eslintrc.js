@@ -8,8 +8,7 @@ module.exports = {
     parser: 'babel-eslint',
   },
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'react/jsx-filename-extension': 'off',
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"]
   },
 };

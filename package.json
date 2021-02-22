@@ -43,8 +43,8 @@
   },
   "lint-staged": {
     "*.vue": [
-      "npm run lint",
-      "git add ."
+      "vue-cli-service lint",
+      "git add"
     ]
   },
   "husky": {

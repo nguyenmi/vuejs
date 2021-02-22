@@ -42,10 +42,7 @@
     "vue-template-compiler": "^2.6.11"
   },
   "lint-staged": {
-    "*.vue": [
-      "vue-cli-service lint",
-      "git add"
-    ]
+    "*.vue": [ "lint" ]
   },
   "husky": {
     "hooks": {

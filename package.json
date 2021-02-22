@@ -42,7 +42,7 @@
     "vue-template-compiler": "^2.6.11"
   },
   "lint-staged": {
-    "*.ts": [
+    "*.vue": [
       "npm run lint",
       "git add ."
     ]

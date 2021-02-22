@@ -16,10 +16,11 @@
 </template>
 
 <script>
-// import store from '@store';
+import store from '@store   ';
+
 export default {
-  name: 'Home',
-  // components: store,
+  name: 'Home   ',
+  components: store,
   props: {
     msg: String,
   },

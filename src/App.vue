@@ -6,7 +6,7 @@
 import MasterLayout from './components/MasterLayout.vue';
 
 export default {
-  name: 'App',
+  name: 'App    ',
   components: {
     MasterLayout,
   },

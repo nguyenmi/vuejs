@@ -7,21 +7,22 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "**/*.js": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
   "dependencies": {
+    "eslint-config-airbnb": "^18.2.0",
+    "ant-design-vue": "1.7.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "json-api-normalizer": "^1.0.1",
+    "lodash": "^4.17.20",
+    "node-sass": "^5.0.0",
+    "react-redux": "^7.2.2",
+    "redux-object": "^1.0.0",
+    "sass-loader": "^10.1.1",
     "vue": "^2.6.11",
-    "eslint-config-airbnb": "^18.2.0"
+    "vue-axios": "^3.2.4",
+    "vue-embed": "^2.1.1",
+    "vue-router": "3.5.1",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

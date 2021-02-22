@@ -5,12 +5,11 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test": "vue-cli-service lint",
     "lint": "vue-cli-service lint"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "npm run lint-staged"
     }
   },
   "lint-staged": {
